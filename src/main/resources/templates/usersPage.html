@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Users page</title>
+</head>
+<body>
+<form  method="GET" th:action="@{/users}" th:object="${users}">
+    <h1>Users: </h1>
+    <ul th:each="user : ${users}">
+        <li>
+            <div>
+                <h2 th:text="${user}"></h2>
+            </div>
+        </li>
+    </ul>
+</form>
+</body>

@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://awstestdb.c9k440gi4rfh.eu-north-1.rds.amazonaws.com:5432/awstestdb
+    username: postgres
+    password: awstestdb
+    driver-class-name: org.postgresql.Driver
