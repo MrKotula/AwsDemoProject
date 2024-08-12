@@ -9,5 +9,5 @@ phases:
       - echo Build complete.
 artifacts:
   files:
-    - target/target/AwsDemoProject.jar
+    - target/AwsDemoProject.jar
   discard-paths: yes
